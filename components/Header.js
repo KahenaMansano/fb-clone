@@ -47,7 +47,7 @@ function Header() {
         </div>
 
         <div className="flex items-center sm:space-x-2 justify-end">
-          <p className="whitespace-nowrap font-semibold pr-3">User name</p>
+          <p className="whitespace-nowrap font-semibold pr-3">Kahena Mansano</p>
           <ViewGridIcon className="icon" />
           <ChatIcon className="icon" />
           <BellIcon className="icon" />
