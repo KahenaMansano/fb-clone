@@ -2,6 +2,12 @@ import StoryCard from './StoryCard'
 
 const stories = [
   {
+    name: 'Kahena Mansano',
+    src: 'https://i.postimg.cc/DftJL8GF/272872079-4889456481143636-7747770111810562335-n.jpg',
+    profile:
+      'https://i.postimg.cc/JzR277Pc/169433891-3926310210791606-8081478051711860050-n.jpg'
+  },
+  {
     name: 'Bill Gates',
     src: 'https://links.papareact.com/4u4',
     profile: 'https://links.papareact.com/zvy'
@@ -20,11 +26,6 @@ const stories = [
     name: 'Mark Zuckerberg',
     src: 'https://links.papareact.com/xql',
     profile: 'https://links.papareact.com/snf'
-  },
-  {
-    name: 'Sonny Sangha',
-    src: 'https://links.papareact.com/zof',
-    profile: 'https://links.papareact.com/l4v'
   }
 ]
 
