@@ -11,7 +11,7 @@ export default function Home() {
 
   return (
     <div>
-      <Head>
+      <Head className="h-screen bg-gray-100 overflow-hidden">
         <title>Facebook</title>
       </Head>
 

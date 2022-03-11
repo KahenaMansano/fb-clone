@@ -10,7 +10,7 @@ function SidebarRow({ src, Icon, title }) {
           width={30}
           height={30}
           layout="fixed"
-          alt=""
+          alt="Imagem de perfil"
         />
       )}
       {Icon && <Icon className="h-8 w-8 text-blue-500" />}
