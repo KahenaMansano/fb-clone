@@ -4,7 +4,7 @@ import { EmojiHappyIcon } from '@heroicons/react/outline'
 import { CameraIcon, VideoCameraIcon } from '@heroicons/react/solid'
 import { useRef, useState } from 'react'
 import { db } from '../firebase'
-import firebase from 'firebase/compat/app'
+import firebase from 'firebase'
 
 function InputBox() {
   const { data: session } = useSession()
@@ -29,6 +29,7 @@ function InputBox() {
   }
 
   const addImageToPost = e => {
+    
     const reader = new FileReader()
     if (e.target.files[0]) {
       reader.readAsDataURL(e.target.files[0])
@@ -72,7 +73,7 @@ function InputBox() {
             onClick={removeImage}
             className="flex flex-col filter hover:brightness-110 transition duration-150 transform hover:scale-105 cursor-pointer"
           >
-            <Image
+            <img
               className="h-10 object-contain"
               src={imageToPost}
               alt="Imagem carregada para postagem"
