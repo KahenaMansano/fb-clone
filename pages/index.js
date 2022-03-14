@@ -13,6 +13,11 @@ export default function Home() {
   return (
     <div>
       <Head className="h-screen bg-gray-100 overflow-hidden">
+        <link
+          rel="shortcut icon"
+          type="imagex/png"
+          href="https://links.papareact.com/5me"
+        />
         <title>Facebook</title>
       </Head>
 
