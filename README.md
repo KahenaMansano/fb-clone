@@ -55,5 +55,5 @@ Projeto construido com:
 - **Firebase**
 
 <p>Quer ver o resultado? <a href="https://fb-clone-one.vercel.app/" target="_blank">Clique aqui</a>. 
-Obs. A Google está detectando phishing, então não abra com o Chrome.</p>
+<hr/>Obs. A Google está detectando phishing, então não abra com o Chrome.</p>
 </div>
